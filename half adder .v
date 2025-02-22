@@ -31,6 +31,8 @@ module tb();
     #10 a=0;b=1;
     #10 $finish;
 
+    $display ("a = %b,b = %b ,s = %b,c = %b",a,b,s,c);
+
   end 
 endmodule 
 
